@@ -34,7 +34,7 @@ if (-not (Get-Command ffmpeg -ErrorAction SilentlyContinue)) {
 # Сборка аргументов ffmpeg
 $ffmpegArgs = @(
     "-f", "dshow",
-    "-rtbufsize", "200M",
+    "-rtbufsize", "500M",
     "-i", "video=`"$($config["VIDEO_DEV"])`":audio=`"$($config["AUDIO_DEV"])`"",
     "-c:v", $config["VIDEO_CODEC"],
     "-preset", $config["VIDEO_PRESET"],

@@ -8,17 +8,36 @@ ffmpeg version 8.0-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFm
   libavfilter    11.  4.100 / 11.  4.100
   libswscale      9.  1.100 /  9.  1.100
   libswresample   6.  1.100 /  6.  1.100
-[aist#0:1/pcm_s16le @ 000001a88b3fc640] Guessed Channel Layout: stereo
-Input #0, dshow, from 'video=vMix Video:audio=vMix Audio':
-  Duration: N/A, start: 332181.427000, bitrate: 1536 kb/s
-  Stream #0:0: Video: rawvideo (UYVY / 0x59565955), uyvy422, 1920x1080, 59.94 fps, 59.94 tbr, 10000k tbn, start 332181.427000
-  Stream #0:1: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s, start 332181.446000
-[dshow @ 000001a88b3f4780] real-time buffer [vMix Video] [video input] too full or near too full (136% of size: 3041280 [rtbufsize parameter])! frame dropped!
-    Last message repeated 305 times
-[rtmp @ 000001a88b427680] Cannot open connection tcp://localhost:1935?tcp_nodelay=0
-[out#0/flv @ 000001a88b3fe6c0] Error opening output rtmp://localhost:1935/live/stream: Immediate exit requested
+[aist#0:1/pcm_s16le @ 000002c8f2a1c140] Guessed Channel Layout: stereo
+Input #0, dshow, from 'video=vMix Video YV12:audio=vMix Audio':
+  Duration: N/A, start: 332268.391000, bitrate: 1536 kb/s
+  Stream #0:0: Video: rawvideo (YV12 / 0x32315659), yuv420p, 1920x1080, 59.94 fps, 59.94 tbr, 10000k tbn, start 332268.391000
+  Stream #0:1: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s, start 332268.410000
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (71% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (73% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (76% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (77% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (79% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (80% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (82% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (83% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (87% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (88% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (90% of size: 200000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 5 times
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (91% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (93% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (94% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (96% of size: 200000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 5 times
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (97% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (99% of size: 200000000 [rtbufsize parameter])! frame dropped!
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (101% of size: 200000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 226 times
+[tcp @ 000002c8f2a47740] Connection to tcp://localhost:1935?tcp_nodelay=0 failed: Error number -138 occurred
+[rtmp @ 000002c8f2a1eb40] Cannot open connection tcp://localhost:1935?tcp_nodelay=0
+[out#0/flv @ 000002c8f2a1c4c0] Error opening output rtmp://localhost:1935/live/stream: Error number -138 occurred
 Error opening output file rtmp://localhost:1935/live/stream.
-[dshow @ 000001a88b3f4780] real-time buffer [vMix Video] [video input] too full or near too full (136% of size: 3041280 [rtbufsize parameter])! frame dropped!
+Error opening output files: Error number -138 occurred
+[dshow @ 000002c8f2a14940] real-time buffer [vMix Video YV12] [video input] too full or near too full (101% of size: 200000000 [rtbufsize parameter])! frame dropped!
     Last message repeated 1 times
-Exiting normally, received signal 15.
-^C
