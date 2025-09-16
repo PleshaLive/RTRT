@@ -1,0 +1,24 @@
+ffmpeg version 8.0-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (Rev8, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[aist#0:1/pcm_s16le @ 00000271743abe80] Guessed Channel Layout: stereo
+Input #0, dshow, from 'video=vMix Video:audio=vMix Audio':
+  Duration: N/A, start: 331732.173000, bitrate: 1536 kb/s
+  Stream #0:0: Video: rawvideo (UYVY / 0x59565955), uyvy422, 1920x1080, 59.94 fps, 59.94 tbr, 10000k tbn, start 331732.173000
+  Stream #0:1: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s, start 331732.191000
+[dshow @ 00000271743a4780] real-time buffer [vMix Video] [video input] too full or near too full (136% of size: 3041280 [rtbufsize parameter])! frame dropped!
+    Last message repeated 142 times
+[rtmp @ 00000271743b2200] Cannot open connection tcp://localhost:1935?tcp_nodelay=0
+[out#0/flv @ 00000271743adb00] Error opening output rtmp://localhost:1935/live/stream: Immediate exit requested
+Error opening output file rtmp://localhost:1935/live/stream.
+[dshow @ 00000271743a4780] real-time buffer [vMix Video] [video input] too full or near too full (136% of size: 3041280 [rtbufsize parameter])! frame dropped!
+    Last message repeated 1 times
+Exiting normally, received signal 15.
+^C
