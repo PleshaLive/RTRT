@@ -8,17 +8,9 @@ ffmpeg version 8.0-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFm
   libavfilter    11.  4.100 / 11.  4.100
   libswscale      9.  1.100 /  9.  1.100
   libswresample   6.  1.100 /  6.  1.100
-[aist#0:1/pcm_s16le @ 00000271743abe80] Guessed Channel Layout: stereo
+[aist#0:1/pcm_s16le @ 000001c14f68be80] Guessed Channel Layout: stereo
 Input #0, dshow, from 'video=vMix Video:audio=vMix Audio':
-  Duration: N/A, start: 331732.173000, bitrate: 1536 kb/s
-  Stream #0:0: Video: rawvideo (UYVY / 0x59565955), uyvy422, 1920x1080, 59.94 fps, 59.94 tbr, 10000k tbn, start 331732.173000
-  Stream #0:1: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s, start 331732.191000
-[dshow @ 00000271743a4780] real-time buffer [vMix Video] [video input] too full or near too full (136% of size: 3041280 [rtbufsize parameter])! frame dropped!
-    Last message repeated 142 times
-[rtmp @ 00000271743b2200] Cannot open connection tcp://localhost:1935?tcp_nodelay=0
-[out#0/flv @ 00000271743adb00] Error opening output rtmp://localhost:1935/live/stream: Immediate exit requested
-Error opening output file rtmp://localhost:1935/live/stream.
-[dshow @ 00000271743a4780] real-time buffer [vMix Video] [video input] too full or near too full (136% of size: 3041280 [rtbufsize parameter])! frame dropped!
-    Last message repeated 1 times
-Exiting normally, received signal 15.
-^C
+  Duration: N/A, start: 332058.628000, bitrate: 1536 kb/s
+  Stream #0:0: Video: rawvideo (UYVY / 0x59565955), uyvy422, 1920x1080, 59.94 fps, 59.94 tbr, 10000k tbn, start 332058.628000
+  Stream #0:1: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s, start 332058.642000
+[dshow @ 000001c14f684780] real-time buffer [vMix Video] [video input] too full or near too full (136% of size: 3041280 [rtbufsize parameter])! frame dropped!

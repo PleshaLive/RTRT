@@ -1,0 +1,80 @@
+ffmpeg version 8.0-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (Rev8, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[dshow @ 00000129e0df3c80] "Elgato HD60 X" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_pnp_\\?\usb#vid_0fd9&pid_008a&mi_00#b&3a672fdd&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global"
+[dshow @ 00000129e0df3c80] "e2eSoft iVCam" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_pnp_\\?\root#image#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global"
+[dshow @ 00000129e0df3c80] "HD Pro Webcam C920" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_pnp_\\?\usb#vid_046d&pid_0892&mi_00#b&2abbcd61&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global"
+I2025-09-17 01:44:20.264824 (27084) [INFO] [VCAMDS] ffmpeg.exe
+E2025-09-17 01:44:20.265829 (27084)  [ERR] [VCAMDS] Failed to open NBX hive
+I2025-09-17 01:44:20.266829 (27084) [INFO] [VCAMDS] Creating WndMsg Listener Window
+I2025-09-17 01:44:20.276846 (27084) [INFO] [VCAMDS] Destroying parent object
+I2025-09-17 01:44:20.276846 (27084) [INFO] [VCAMDS] Destroying WndMsg Listener Window
+I2025-09-17 01:44:20.280356 (27084) [INFO] [VCAMDS] Destroyed window
+I2025-09-17 01:44:20.280356 (27084) [INFO] [VCAMDS] Unregistered window class
+I2025-09-17 01:44:20.280356 (27084) [INFO] [VCAMDS] Video data consumption app tracker updating num DLL loaded: 0
+E2025-09-17 01:44:20.280356 (27084)  [ERR] [VCAMDS] NvMxnCltShmConsumer Failed to update num apps DLL loaded
+[dshow @ 00000129e0df3c80] "Camera (NVIDIA Broadcast)" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{7BBFF097-B3FB-4B26-B685-7A998DE7CEAC}"
+[dshow @ 00000129e0df3c80] "vMix Video" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{8E14549A-DB61-4309-AFA1-3578E927E938}"
+[dshow @ 00000129e0df3c80] "vMix Video External 2" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{8E14549A-DB61-4309-AFA1-3578E927F974}"
+[dshow @ 00000129e0df3c80] "vMix Video External 3" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{8E14549A-DB61-4309-AFA1-3578E927FAA4}"
+[dshow @ 00000129e0df3c80] "vMix Video External 3 YV12" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{8E14549A-DB61-4309-AFA1-3578E927FBB4}"
+[dshow @ 00000129e0df3c80] "vMix Video External 4" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{8E14549A-DB61-4309-AFA1-3578E927FCC4}"
+[dshow @ 00000129e0df3c80] "vMix Video External 4 YV12" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{8E14549A-DB61-4309-AFA1-3578E927FDD4}"
+[dshow @ 00000129e0df3c80] "vMix Video YV12" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{8E14549A-DB61-4309-AFA1-3578E927FF92}"
+[dshow @ 00000129e0df3c80] "vMix Video External 2 YV12" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{8E14549A-DB61-4309-AFA1-3578E927FF94}"
+[dshow @ 00000129e0df3c80] "OBS Virtual Camera" (video)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{A3FCE0F5-3493-419F-958A-ABA1250EC20B}"
+[dshow @ 00000129e0df3c80] "Microphone (2- fifine Microphone)" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{9AF289AB-C2FF-496D-A035-32EE8EE91D1D}"
+[dshow @ 00000129e0df3c80] "vMix Audio" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927E940}"
+[dshow @ 00000129e0df3c80] "vMix Audio - Bus A" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927E944}"
+[dshow @ 00000129e0df3c80] "vMix Audio - Bus B" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927E948}"
+[dshow @ 00000129e0df3c80] "vMix Audio - M A B" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927E952}"
+[dshow @ 00000129e0df3c80] "vMix Audio - M A" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927E956}"
+[dshow @ 00000129e0df3c80] "vMix Audio - F G" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927E958}"
+[dshow @ 00000129e0df3c80] "vMix Audio - 16Ch" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927F001}"
+[dshow @ 00000129e0df3c80] "vMix Audio - Bus C" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927F002}"
+[dshow @ 00000129e0df3c80] "vMix Audio - Bus D" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927F003}"
+[dshow @ 00000129e0df3c80] "vMix Audio - Bus E" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927F004}"
+[dshow @ 00000129e0df3c80] "vMix Audio - Bus F" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927F005}"
+[dshow @ 00000129e0df3c80] "vMix Audio - Bus G" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927F006}"
+[dshow @ 00000129e0df3c80] "vMix Audio - M A B C 8Ch" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_sw_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\{008E145B-DB61-4309-AEA1-3578E927F101}"
+[dshow @ 00000129e0df3c80] "Microphone (Razer Barracuda X 2.4)" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{0B007DF8-D7A4-466E-8488-900C8365430B}"
+[dshow @ 00000129e0df3c80] "Elgato HD60 X (Elgato HD60 X)" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{A83E8A0B-3499-4FF3-A3D2-06A3B5C5DC53}"
+[dshow @ 00000129e0df3c80] "Microphone (NVIDIA Broadcast)" (audio)
+[dshow @ 00000129e0df3c80]   Alternative name "@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{AA7559DF-E0DF-49A1-A692-AF93E97A77FC}"
+Error opening input file dummy.
