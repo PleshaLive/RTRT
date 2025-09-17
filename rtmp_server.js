@@ -9,7 +9,7 @@ const config = {
     ping_timeout: 60
   },
   http: {
-    port: 8000,
+    port: 8001,
     mediaroot: './media',
     allow_origin: '*'
   }
@@ -19,4 +19,4 @@ const nms = new NodeMediaServer(config);
 nms.run();
 
 console.log('RTMP server started on port 1935');
-console.log('HLS available at http://localhost:8000/live/stream.m3u8');
+console.log('HLS available at http://localhost:8001/live/stream.m3u8');
